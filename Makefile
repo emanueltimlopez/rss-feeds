@@ -25,9 +25,6 @@ help: ## Show all available targets with descriptions
 	@printf "$(BOLD)=== 🐍 Environment Setup ===$(RESET)\n"
 	@grep -h -E '^env_.*:.*?## .*$$' $(MAKEFILE_LIST) ./makefiles/*.mk 2>/dev/null | awk 'BEGIN {FS = ":.*?## "}; {printf "$(CYAN)%-40s$(RESET) %s\n", $$1, $$2}' | sort -u
 	@printf "\n"
-	@printf "$(BOLD)=== 📡 RSS Feed Generation ===$(RESET)\n"
-	@grep -h -E '^feeds_.*:.*?## .*$$' $(MAKEFILE_LIST) ./makefiles/*.mk 2>/dev/null | awk 'BEGIN {FS = ":.*?## "}; {printf "$(CYAN)%-40s$(RESET) %s\n", $$1, $$2}' | sort -u
-	@printf "\n"
 	@printf "$(BOLD)=== 🛠️ Development ===$(RESET)\n"
 	@grep -h -E '^dev_.*:.*?## .*$$' $(MAKEFILE_LIST) ./makefiles/*.mk 2>/dev/null | awk 'BEGIN {FS = ":.*?## "}; {printf "$(CYAN)%-40s$(RESET) %s\n", $$1, $$2}' | sort -u
 	@printf "\n"
@@ -36,6 +33,9 @@ help: ## Show all available targets with descriptions
 	@printf "\n"
 	@printf "$(BOLD)=== 🧹 Cleaning ===$(RESET)\n"
 	@grep -h -E '^clean_.*:.*?## .*$$' $(MAKEFILE_LIST) ./makefiles/*.mk 2>/dev/null | awk 'BEGIN {FS = ":.*?## "}; {printf "$(CYAN)%-40s$(RESET) %s\n", $$1, $$2}' | sort -u
+	@printf "\n"
+	@printf "$(BOLD)=== 📡 RSS Feed Generation ===$(RESET)\n"
+	@grep -h -E '^feeds_.*:.*?## .*$$' $(MAKEFILE_LIST) ./makefiles/*.mk 2>/dev/null | awk 'BEGIN {FS = ":.*?## "}; {printf "$(CYAN)%-40s$(RESET) %s\n", $$1, $$2}' | sort -u
 	@printf "\n"
 	@printf "$(YELLOW)Usage:$(RESET) make <target>\n"
 	@printf "\n"

@@ -16,3 +16,15 @@ dev_test_feed: ## Run the test_feed.py script
 	$(call print_info,Running test_feed.py)
 	$(Q)python feed_generators/test_feed.py
 	$(call print_success,Test feed completed)
+
+.PHONY: dev_test_all
+dev_test_all: ## Validate feeds, regenerate non-selenium feeds, then re-validate
+	$(call check_venv)
+	$(call print_info_section,Running full test suite)
+	$(call print_info,Validating existing feeds)
+	$(Q)python feed_generators/validate_feeds.py
+	$(call print_info,Regenerating non-selenium feeds)
+	$(Q)python feed_generators/run_all_feeds.py --skip-selenium
+	$(call print_info,Re-validating feeds)
+	$(Q)python feed_generators/validate_feeds.py
+	$(call print_success,All tests passed)
