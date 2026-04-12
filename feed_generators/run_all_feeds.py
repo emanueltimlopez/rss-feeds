@@ -1,11 +1,13 @@
 import argparse
+import logging
 import os
 import subprocess
-import logging
 import sys
 
 # Set up logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
 
 
@@ -36,7 +38,7 @@ def run_all_feeds(skip_selenium=False, selenium_only=False):
         int: Exit code (0 for success, 1 if any script failed)
     """
     feed_generators_dir = os.path.dirname(os.path.abspath(__file__))
-    skip_scripts = ["utils.py", "test_feed.py", "validate_feeds.py"]
+    skip_scripts = ["utils.py", "validate_feeds.py"]
     failed_scripts = []
     successful_scripts = []
     skipped_scripts = []
@@ -61,7 +63,9 @@ def run_all_feeds(skip_selenium=False, selenium_only=False):
                 continue
 
             logger.info(f"Running script: {script_path}")
-            result = subprocess.run(["uv", "run", script_path], capture_output=True, text=True)
+            result = subprocess.run(
+                ["uv", "run", script_path], capture_output=True, text=True
+            )
             if result.returncode == 0:
                 logger.info(f"Successfully ran script: {script_path}")
                 successful_scripts.append(filename)
@@ -95,6 +99,7 @@ def run_all_feeds(skip_selenium=False, selenium_only=False):
 
     logger.info(f"{'='*60}\n")
     return 0
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run RSS feed generators")
