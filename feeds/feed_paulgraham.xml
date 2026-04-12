@@ -2,13 +2,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Paul Graham Essays</title>
-    <link>https://paulgraham.com/feed_paulgraham.xml</link>
+    <link>https://paulgraham.com/articles.html</link>
     <description>Paul Graham's Essays and Writings</description>
-    <atom:link href="https://paulgraham.com/feed_paulgraham.xml" rel="self"/>
+    <atom:link href="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Apr 2026 14:14:08 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 20:21:57 +0000</lastBuildDate>
     <item>
       <title>This Year We Can End the Death Penalty in California</title>
       <link>https://paulgraham.com/prop62.html</link>
