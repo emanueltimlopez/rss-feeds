@@ -10,8 +10,17 @@ import pytz
 import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from utils import (load_cache, merge_entries, save_cache, save_rss_feed,
-                   setup_feed_links, setup_logging, sort_posts_for_feed)
+
+from utils import (
+    deserialize_entries,
+    load_cache,
+    merge_entries,
+    save_cache,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
+)
 
 logger = setup_logging()
 
@@ -231,8 +240,9 @@ def main(full_reset=False):
                    and merge with cached posts.
     """
     cache = load_cache(FEED_NAME)
+    cached_entries = deserialize_entries(cache.get("entries", []))
 
-    if full_reset or not cache.get("entries", []):
+    if full_reset or not cached_entries:
         mode = "full reset" if full_reset else "no cache exists"
         logger.info(f"Running full fetch ({mode})")
         posts = fetch_all_pages()
@@ -241,7 +251,7 @@ def main(full_reset=False):
         html_content = fetch_page(BLOG_URL)
         new_posts = parse_posts(html_content)
         logger.info(f"Found {len(new_posts)} posts on page 1")
-        posts = merge_entries(new_posts, cache["entries"])
+        posts = merge_entries(new_posts, cached_entries)
 
     save_cache(FEED_NAME, posts)
     feed = generate_rss_feed(posts)
@@ -253,8 +263,6 @@ def main(full_reset=False):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Claude Blog RSS feed")
-    parser.add_argument(
-        "--full", action="store_true", help="Force full reset (fetch all pages)"
-    )
+    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all pages)")
     args = parser.parse_args()
     main(full_reset=args.full)

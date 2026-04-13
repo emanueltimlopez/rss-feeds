@@ -1,14 +1,25 @@
 import argparse
-import time
 from datetime import datetime
 
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from utils import (deserialize_entries, load_cache, merge_entries, save_cache,
-                   save_rss_feed, setup_feed_links, setup_logging,
-                   setup_selenium_driver, sort_posts_for_feed,
-                   stable_fallback_date)
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+
+from utils import (
+    deserialize_entries,
+    load_cache,
+    merge_entries,
+    save_cache,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    setup_selenium_driver,
+    sort_posts_for_feed,
+    stable_fallback_date,
+)
 
 logger = setup_logging()
 
@@ -25,9 +36,11 @@ def fetch_news_content_selenium(url):
         driver.get(url)
 
         # Wait for JS-rendered content to load
-        wait_time = 8
-        logger.info(f"Waiting {wait_time} seconds for the page to fully load...")
-        time.sleep(wait_time)
+        try:
+            WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'a[href^="/index/"]')))
+            logger.info("Research articles loaded successfully")
+        except Exception:
+            logger.warning("Could not confirm articles loaded, proceeding anyway...")
 
         html_content = driver.page_source
         logger.info("Successfully fetched HTML content")
@@ -184,11 +197,7 @@ def main(full_reset=False):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description="Generate OpenAI Research News RSS feed"
-    )
-    parser.add_argument(
-        "--full", action="store_true", help="Force full reset (fetch all articles)"
-    )
+    parser = argparse.ArgumentParser(description="Generate OpenAI Research News RSS feed")
+    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all articles)")
     args = parser.parse_args()
     main(full_reset=args.full)

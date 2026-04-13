@@ -4,9 +4,18 @@ from datetime import datetime
 import pytz
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from utils import (deserialize_entries, fetch_page, load_cache, merge_entries,
-                   save_cache, save_rss_feed, setup_feed_links, setup_logging,
-                   sort_posts_for_feed)
+
+from utils import (
+    deserialize_entries,
+    fetch_page,
+    load_cache,
+    merge_entries,
+    save_cache,
+    save_rss_feed,
+    setup_feed_links,
+    setup_logging,
+    sort_posts_for_feed,
+)
 
 logger = setup_logging()
 
@@ -35,22 +44,28 @@ def parse_posts(html_content):
         if title_elem and date_elem and link_elem:
             title = title_elem.text.strip()
             date_str = date_elem.text.strip()
-            date_obj = datetime.strptime(date_str, "%B %d, %Y")
-            description = description_elem.text.strip() if description_elem else ""
-            link = link_elem.get("href", "")
+            try:
+                date_obj = datetime.strptime(date_str, "%B %d, %Y")
+            except ValueError:
+                logger.warning(f"Could not parse featured post date: {date_str}")
+                date_obj = None
 
-            if link.startswith("/"):
-                link = f"https://dagster.io{link}"
+            if date_obj:
+                description = description_elem.text.strip() if description_elem else ""
+                link = link_elem.get("href", "")
 
-            if link:
-                blog_posts.append(
-                    {
-                        "link": link,
-                        "title": title,
-                        "date": date_obj.strftime("%Y-%m-%d"),
-                        "description": description,
-                    }
-                )
+                if link.startswith("/"):
+                    link = f"https://dagster.io{link}"
+
+                if link:
+                    blog_posts.append(
+                        {
+                            "link": link,
+                            "title": title,
+                            "date": date_obj.strftime("%Y-%m-%d"),
+                            "description": description,
+                        }
+                    )
 
     # Find all regular blog post cards
     posts = soup.select("div.blog_card")
@@ -65,7 +80,11 @@ def parse_posts(html_content):
         if not date_elem:
             continue
         date_str = date_elem.text.strip()
-        date_obj = datetime.strptime(date_str, "%B %d, %Y")
+        try:
+            date_obj = datetime.strptime(date_str, "%B %d, %Y")
+        except ValueError:
+            logger.warning(f"Could not parse date: {date_str}")
+            continue
 
         description_elem = post.select_one('p[fs-cmsfilter-field="description"]')
         description = description_elem.text.strip() if description_elem else ""
@@ -191,8 +210,6 @@ def main(full_reset=False):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate Dagster Blog RSS feed")
-    parser.add_argument(
-        "--full", action="store_true", help="Force full reset (fetch all pages)"
-    )
+    parser.add_argument("--full", action="store_true", help="Force full reset (fetch all pages)")
     args = parser.parse_args()
     main(full_reset=args.full)
