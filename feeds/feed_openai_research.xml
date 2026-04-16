@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Apr 2026 19:52:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 20:48:30 +0000</lastBuildDate>
+    <item>
+      <title>Introducing GPT-Rosalind for life sciences research</title>
+      <link>https://openai.com/index/introducing-gpt-rosalind/</link>
+      <description>Introducing GPT-Rosalind for life sciences research</description>
+      <category>Research</category>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Inside our approach to the Model Spec</title>
       <link>https://openai.com/index/our-approach-to-the-model-spec/</link>
@@ -31,13 +38,6 @@
       <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Reasoning models struggle to control their chains of thought, and that’s good</title>
-      <link>https://openai.com/index/reasoning-models-chain-of-thought-controllability/</link>
-      <description>Reasoning models struggle to control their chains of thought, and that’s good</description>
-      <category>Research</category>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>GPT-5.4 Thinking System Card</title>
       <link>https://openai.com/index/gpt-5-4-thinking-system-card/</link>
       <description>GPT-5.4 Thinking System Card</description>
@@ -52,6 +52,13 @@
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Reasoning models struggle to control their chains of thought, and that’s good</title>
+      <link>https://openai.com/index/reasoning-models-chain-of-thought-controllability/</link>
+      <description>Reasoning models struggle to control their chains of thought, and that’s good</description>
+      <category>Research</category>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Extending single-minus amplitudes to gravitons</title>
       <link>https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/</link>
       <description>Extending single-minus amplitudes to gravitons</description>
@@ -63,13 +70,6 @@
       <link>https://openai.com/index/gpt-5-3-instant-system-card/</link>
       <description>GPT-5.3 Instant System Card</description>
       <category>Publication</category>
-      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GPT-5.3 Instant: Smoother, more useful everyday conversations</title>
-      <link>https://openai.com/index/gpt-5-3-instant/</link>
-      <description>GPT-5.3 Instant: Smoother, more useful everyday conversations</description>
-      <category>Product</category>
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
