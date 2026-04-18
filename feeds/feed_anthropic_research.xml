@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 11:45:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 12:49:20 +0000</lastBuildDate>
     <item>
       <title>Apr 14, 2026AlignmentAutomated Alignment Researchers: Using large language models to scale scalable oversight</title>
       <link>https://www.anthropic.com/research/automated-alignment-researchers</link>
@@ -116,7 +116,7 @@
       <description>Interpretability</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
       <category>Research</category>
-      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Societal Impacts</title>
@@ -124,15 +124,7 @@
       <description>Societal Impacts</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Alignment</title>
-      <link>https://www.anthropic.com/research/team/alignment</link>
-      <description>Alignment</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
-      <category>Research</category>
-      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Economic Research</title>
@@ -140,7 +132,15 @@
       <description>Economic Research</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/economic-research</guid>
       <category>Research</category>
-      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alignment</title>
+      <link>https://www.anthropic.com/research/team/alignment</link>
+      <description>Alignment</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
+      <category>Research</category>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
