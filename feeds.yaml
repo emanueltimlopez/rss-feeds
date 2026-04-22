@@ -15,10 +15,10 @@
 #     enabled: false
 
 feeds:
-  anthropic_changelog_claude_code:
-    script: anthropic_changelog_claude_code.py
+  ai_first_podcast:
+    script: ai_first_podcast.py
     type: requests
-    blog_url: https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
+    blog_url: https://ai-first.ai/podcast
 
   anthropic_eng:
     script: anthropic_eng_blog.py
@@ -55,6 +55,11 @@ feeds:
     type: requests
     blog_url: https://claude.com/blog
 
+  cohere:
+    script: cohere_blog.py
+    type: requests
+    blog_url: https://cohere.com/blog
+
   cursor:
     script: cursor_blog.py
     type: requests
@@ -65,40 +70,60 @@ feeds:
     type: requests
     blog_url: https://dagster.io/blog
 
-  the_batch:
-    script: deeplearningai_the_batch.py
-    type: requests
-    blog_url: https://www.deeplearning.ai/the-batch/
-
   google_ai:
     script: google_ai_blog.py
     type: requests
     blog_url: https://developers.googleblog.com/search/?technology_categories=AI
 
-  hamel:
-    script: hamel_blog.py
+  groq:
+    script: groq_blog.py
     type: requests
-    blog_url: https://hamel.dev/
+    blog_url: https://groq.com/blog/
+
+  meta_ai:
+    script: meta_ai_blog.py
+    type: selenium
+    blog_url: https://ai.meta.com/blog/
+
+  mistral:
+    script: mistral_blog.py
+    type: selenium
+    blog_url: https://mistral.ai/news
 
   ollama:
     script: ollama_blog.py
     type: requests
     blog_url: https://ollama.com/blog
 
-  openai_research:
-    script: openai_research_blog.py
-    type: selenium
-    blog_url: https://openai.com/news/research/
-
   paulgraham:
     script: paulgraham_blog.py
     type: requests
     blog_url: https://paulgraham.com/articles.html
 
+  perplexity_hub:
+    script: perplexity_hub.py
+    type: selenium
+    blog_url: https://www.perplexity.ai/hub
+
+  pinecone:
+    script: pinecone_blog.py
+    type: selenium
+    blog_url: https://www.pinecone.io/blog/
+
+  the_batch:
+    script: deeplearningai_the_batch.py
+    type: requests
+    blog_url: https://www.deeplearning.ai/the-batch/
+
   thinkingmachines:
     script: thinkingmachines_blog.py
     type: requests
     blog_url: https://thinkingmachines.ai/blog/
+
+  weaviate:
+    script: weaviate_blog.py
+    type: requests
+    blog_url: https://weaviate.io/blog
 
   windsurf_blog:
     script: windsurf_blog.py
