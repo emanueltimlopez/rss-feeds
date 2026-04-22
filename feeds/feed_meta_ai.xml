@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Apr 2026 03:42:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 05:20:28 +0000</lastBuildDate>
     <item>
       <title>Scaling How We Build and Test Our Most Advanced AI</title>
       <link>https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/</link>
@@ -599,6 +599,14 @@
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
+      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
+      <description>Introducing Muse Spark: Scaling Towards Personal Superintelligence</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
+      <category></category>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>IBM and Llama: Working to enable AI builder creativity globally</title>
       <link>https://ai.meta.com/blog/ibm-watsonx-ai-llama/</link>
       <description>IBM and Meta are implementing the combined power of IBM’s watsonx AI and data platform and Llama to help businesses reach their AI goals.</description>
@@ -709,14 +717,6 @@
       <guid isPermaLink="false">https://ai.meta.com/blog/responsible-ai-connect-2024/</guid>
       <category>Responsible AI</category>
       <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
-      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
-      <description>Introducing Muse Spark: Scaling Towards Personal Superintelligence</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
-      <category></category>
-      <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
