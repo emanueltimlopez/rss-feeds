@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Apr 2026 15:28:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 16:23:37 +0000</lastBuildDate>
+    <item>
+      <title>Engram: Memory by Weaviate</title>
+      <link>https://weaviate.io/blog/engram-deep-dive</link>
+      <description>A deep dive into Engram, our managed memory service for agents which is simple to get started but adaptable to any use case.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/engram-deep-dive</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Weaviate Shared Cloud now generally available on AWS</title>
       <link>https://weaviate.io/blog/aws-shared-cloud-launch</link>
@@ -421,13 +428,6 @@
       <description>Learn how the new Transformation Agent will change the way we manage data. Say goodbye to the tedious tasks of database management!</description>
       <guid isPermaLink="false">https://weaviate.io/blog/transformation-agent</guid>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What Are Agentic Workflows? Patterns, Memory, Use Cases, and Examples</title>
-      <link>https://weaviate.io/blog/what-are-agentic-workflows</link>
-      <description>Agentic workflows combine AI agents, tools, and agent memory to create adaptive systems. Learn the core patterns, use cases, and real-world examples.</description>
-      <guid isPermaLink="false">https://weaviate.io/blog/what-are-agentic-workflows</guid>
-      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
