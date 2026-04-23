@@ -8,7 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Apr 2026 13:33:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 14:45:02 +0000</lastBuildDate>
+    <item>
+      <title>Weaviate 1.37 Release</title>
+      <link>https://weaviate.io/blog/weaviate-1-37-release</link>
+      <description>This release introduces the built-in MCP Server, Extensible Tokenizers, Diversity Search (MMR), and Query Profiling as previews, along with Incremental Backups, Gemini audio support for multi2vec-google, and the new BlobHash property type.</description>
+      <guid isPermaLink="false">https://weaviate.io/blog/weaviate-1-37-release</guid>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Engram: Memory by Weaviate</title>
       <link>https://weaviate.io/blog/engram-deep-dive</link>
@@ -421,13 +428,6 @@
       <description>Read about BlockMax WAND and multi-vector embeddings in GA, API-based user management, RAG improvements, xAI model support, and more!</description>
       <guid isPermaLink="false">https://weaviate.io/blog/weaviate-1-30-release</guid>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing the Weaviate Transformation Agent</title>
-      <link>https://weaviate.io/blog/transformation-agent</link>
-      <description>Learn how the new Transformation Agent will change the way we manage data. Say goodbye to the tedious tasks of database management!</description>
-      <guid isPermaLink="false">https://weaviate.io/blog/transformation-agent</guid>
-      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
