@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Apr 2026 20:51:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 21:50:24 +0000</lastBuildDate>
     <item>
       <title>Scaling How We Build and Test Our Most Advanced AI</title>
       <link>https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/</link>
@@ -583,6 +583,14 @@
       <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
+      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
+      <description>Introducing Muse Spark: Scaling Towards Personal Superintelligence</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
+      <category></category>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Building a chatbot based on Llama to engage an intergovernmental organization’s stakeholders</title>
       <link>https://ai.meta.com/blog/accenture-built-with-llama/</link>
       <description>Accenture turned to Llama for a leading global intergovernmental body’s first large-scale, public-facing generative AI application.</description>
@@ -709,14 +717,6 @@
       <guid isPermaLink="false">https://ai.meta.com/blog/responsible-ai-connect-2024/</guid>
       <category>Responsible AI</category>
       <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
-      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
-      <description>Introducing Muse Spark: Scaling Towards Personal Superintelligence</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
-      <category></category>
-      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
