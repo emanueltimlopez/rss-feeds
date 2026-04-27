@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Apr 2026 08:19:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 09:19:24 +0000</lastBuildDate>
     <item>
       <title>Scaling How We Build and Test Our Most Advanced AI</title>
       <link>https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/</link>
@@ -623,6 +623,14 @@
       <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
+      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
+      <description>Introducing Muse Spark: Scaling Towards Personal Superintelligence</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
+      <category></category>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Roboflow estimates a 74-year time savings across its community from using Meta’s Segment Anything</title>
       <link>https://ai.meta.com/blog/segment-anything-roboflow-image-segmentation/</link>
       <description>As a company with a mission to help make the world more programmable, Roboflow uses SAM to help build systems that enable their customers to have visual understanding for just about anything.</description>
@@ -709,14 +717,6 @@
       <guid isPermaLink="false">https://ai.meta.com/blog/responsible-ai-connect-2024/</guid>
       <category>Responsible AI</category>
       <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
-      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
-      <description>Introducing Muse Spark: Scaling Towards Personal Superintelligence</description>
-      <guid isPermaLink="false">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
-      <category></category>
-      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
