@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Apr 2026 13:07:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 14:19:50 +0000</lastBuildDate>
+    <item>
+      <title>Workflows for work that runs the business</title>
+      <link>https://mistral.ai/news/workflows</link>
+      <description>Workflows is now in public preview.</description>
+      <guid isPermaLink="false">https://mistral.ai/news/workflows</guid>
+      <category>Product</category>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Connect the dots: Build with built-in and custom MCPs in Studio</title>
       <link>https://mistral.ai/news/connectors</link>
@@ -432,14 +440,6 @@
       <guid isPermaLink="false">https://mistral.ai/news/mistral-nemo</guid>
       <category>Research</category>
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codestral Mamba</title>
-      <link>https://mistral.ai/news/codestral-mamba</link>
-      <description>As a tribute to Cleopatra, whose glorious destiny ended in tragic snake circumstances, we are proud to release Codestral Mamba, a Mamba2 language model specialised in code generation, available under an Apache 2.0 license.</description>
-      <guid isPermaLink="false">https://mistral.ai/news/codestral-mamba</guid>
-      <category>Research</category>
-      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
