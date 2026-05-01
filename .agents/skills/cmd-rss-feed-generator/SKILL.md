@@ -41,6 +41,27 @@ This project generates RSS feeds for blogs that don't provide them natively. The
 
 ## Workflow
 
+### Step 0: Detect GitHub URLs (Interactive)
+
+**If the provided URL matches `https://github.com/{owner}/{repo}`**, stop and ask the user which feed type they want before doing anything else:
+
+> "This is a GitHub repo. GitHub provides native Atom feeds — no scraper needed. Which would you like to track?
+>
+> 1. **Releases** — `https://github.com/{owner}/{repo}/releases.atom`
+> 2. **Tags** — `https://github.com/{owner}/{repo}/tags.atom`
+> 3. **Commits (specific branch)** — `https://github.com/{owner}/{repo}/commits/{branch}.atom` _(ask which branch)_
+> 4. **Commits (main)** — `https://github.com/{owner}/{repo}/commits/main.atom`"
+
+Once the user picks an option:
+
+- If option 3: follow up with "Which branch?" before proceeding.
+- Construct the final Atom URL.
+- Add it as an `[Official RSS]` row in the README table (alphabetical order by repo/display name).
+- Do **not** generate a scraper, add to `feeds.yaml`, or add a Makefile target.
+- Stop — no further steps needed.
+
+Only continue to Step 1 if the URL is **not** a GitHub repo.
+
 ### Step 1: Review Existing Feed Generators
 
 **Always start by examining existing feed generators as references:**
