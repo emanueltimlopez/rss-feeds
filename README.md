@@ -28,12 +28,14 @@ Scraped feeds are generated hourly. "Official RSS" rows point to native feeds th
 | [Google Developers Blog - AI](https://developers.googleblog.com/search/?technology_categories=AI) | [feed_google_ai.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_google_ai.xml)                             |
 | [Groq Blog](https://groq.com/blog/)                                                               | [feed_groq.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_groq.xml)                                       |
 | [Hamel Husain's Blog](https://hamel.dev/)                                                         | [Official RSS](https://hamel.dev/index.xml)                                                                                          |
+| [Interconnected (Matt Webb)](https://interconnected.org/home)                                     | [Official RSS](https://interconnected.org/home/feed)                                                                                 |
 | [Mistral AI News](https://mistral.ai/news)                                                        | [feed_mistral.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_mistral.xml)                                 |
 | [Ollama Blog](https://ollama.com/blog)                                                            | [feed_ollama.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_ollama.xml)                                   |
 | [OpenAI Research](https://openai.com/news/research/)                                              | [Official RSS](https://openai.com/blog/rss.xml)                                                                                      |
 | [Paul Graham's Articles](https://www.paulgraham.com/articles.html)                                | [feed_paulgraham.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml)                           |
 | [Perplexity Hub](https://www.perplexity.ai/hub)                                                   | [feed_perplexity_hub.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_perplexity_hub.xml)                   |
 | [Pinecone Blog](https://www.pinecone.io/blog/)                                                    | [feed_pinecone.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_pinecone.xml)                               |
+| [Simon Willison's Blog (Tools)](https://simonwillison.net/)                                       | [Official RSS](https://simonwillison.net/atom/beats/tool/)                                                                           |
 | [Supabase Blog](https://supabase.com/blog)                                                        | [Official RSS](https://supabase.com/rss.xml)                                                                                         |
 | [Surge AI Blog](https://www.surgehq.ai/blog)                                                      | [feed_blogsurgeai.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_blogsurgeai.xml)                         |
 | [The Batch by DeepLearning.AI](https://www.deeplearning.ai/the-batch/)                            | [feed_the_batch.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_the_batch.xml)                             |
@@ -98,7 +100,7 @@ If I do, consider supporting my 🌟🧋 addiction by [buying me a coffee](https
 3. Tell claude to:
 
 ```bash
-Use @cmd_rss_feed_generator.md to convert @<html_file>.html to a RSS feed for <blog_url>.
+Use /cmd-rss-feed-generator to convert @<html_file>.html to a RSS feed for <blog_url>.
 ```
 
 ## Star History

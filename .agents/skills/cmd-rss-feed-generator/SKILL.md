@@ -156,6 +156,32 @@ Also add a legacy alias in the main `Makefile` following the existing pattern.
 
 ## Common Patterns
 
+### Official RSS Feeds (No Scraper Needed)
+
+Before building a scraper, **always check if the site already provides an RSS or Atom feed**. Common locations:
+
+- `https://example.com/feed`
+- `https://example.com/rss.xml`
+- `https://example.com/atom.xml`
+- Check `<link rel="alternate" type="application/rss+xml">` in the page `<head>`
+
+If an official feed exists, skip scraper generation entirely. Instead:
+
+1. Add the site to the README table with `[Official RSS](url)` in the feed column (not a `raw.githubusercontent.com` link).
+2. Do **not** add an entry to `feeds.yaml` or `makefiles/feeds.mk`.
+
+### GitHub Repos as Sources
+
+GitHub exposes native Atom feeds — no scraper required. Use the appropriate feed depending on what to track:
+
+| Track | Feed URL |
+|-------|----------|
+| Releases | `https://github.com/{owner}/{repo}/releases.atom` |
+| Tags | `https://github.com/{owner}/{repo}/tags.atom` |
+| Commits (branch) | `https://github.com/{owner}/{repo}/commits/{branch}.atom` |
+
+Add these as `[Official RSS]` rows in the README table. If the repo has no releases/tags but you still want to track activity (e.g., a tools index or changelog in a file), generate a scraper using the GitHub API or by fetching the rendered HTML of the relevant page.
+
 ### Dynamic Content (JavaScript-rendered)
 
 - See `blogsurgeai_feed_generator.py` for Selenium/undetected-chromedriver example.
