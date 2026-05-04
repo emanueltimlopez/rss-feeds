@@ -13,7 +13,7 @@
       <link>https://www.anthropic.com/news</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 04 May 2026 13:04:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 14:17:35 +0000</lastBuildDate>
     <item>
       <title>Claude for Creative Work</title>
       <link>https://www.anthropic.com/news/claude-for-creative-work</link>
@@ -1301,6 +1301,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems</guid>
       <category>Policy</category>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building a new enterprise AI services company with Blackstone, Hellman &amp; Friedman, and Goldman Sachs</title>
+      <link>https://www.anthropic.com/news/enterprise-ai-services-company</link>
+      <description>Building a new enterprise AI services company with Blackstone, Hellman &amp; Friedman, and Goldman Sachs</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/enterprise-ai-services-company</guid>
+      <category>Announcements</category>
+      <pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Testing and mitigating elections-related risks</title>
