@@ -8,13 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 May 2026 03:49:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 05:41:35 +0000</lastBuildDate>
+    <item>
+      <title>Builder Plan: for the stage between prototype and scale</title>
+      <link>https://www.pinecone.io/blog/builder-plan/</link>
+      <description>Builder Plan: for the stage between prototype and scale</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/builder-plan/</guid>
+      <category>Featured</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introducing Pinecone Marketplace:  Getting to Production in Minutes</title>
       <link>https://www.pinecone.io/blog/marketplace/</link>
       <description>Introducing Pinecone Marketplace:  Getting to Production in Minutes</description>
       <guid isPermaLink="false">https://www.pinecone.io/blog/marketplace/</guid>
-      <category>Featured</category>
+      <category>Product</category>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1000,14 +1008,6 @@
       <guid isPermaLink="false">https://www.pinecone.io/blog/funding-search-ai-age/</guid>
       <category>Company</category>
       <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>February Release: Performance at Scale, Predictability, and Control</title>
-      <link>https://www.pinecone.io/blog/predict-perform-control/</link>
-      <description>February Release: Performance at Scale, Predictability, and Control</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/predict-perform-control/</guid>
-      <category>Product</category>
-      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
