@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 May 2026 20:07:46 +0000</lastBuildDate>
-    <item>
-      <title>Full Text Search in Pinecone, Now in Public Preview</title>
-      <link>https://www.pinecone.io/blog/full-text-search/</link>
-      <description>Full Text Search in Pinecone, Now in Public Preview</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/full-text-search/</guid>
-      <category>Product</category>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 06 May 2026 20:58:57 +0000</lastBuildDate>
     <item>
       <title>Builder Plan: for the stage between prototype and scale</title>
       <link>https://www.pinecone.io/blog/builder-plan/</link>
@@ -1008,6 +1000,14 @@
       <guid isPermaLink="false">https://www.pinecone.io/blog/enterprise-plan/</guid>
       <category>Company</category>
       <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>$28M to Bring Search into the AI Age</title>
+      <link>https://www.pinecone.io/blog/funding-search-ai-age/</link>
+      <description>$28M to Bring Search into the AI Age</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/funding-search-ai-age/</guid>
+      <category>Company</category>
+      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
