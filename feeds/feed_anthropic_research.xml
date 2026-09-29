@@ -13,7 +13,23 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 03:09:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 17:12:29 +0000</lastBuildDate>
+    <item>
+      <title>Sep 29, 2026Frontier Red TeamGLM-5.3 and the spread of advanced cyber capabilities</title>
+      <link>https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</link>
+      <description>Sep 29, 2026Frontier Red TeamGLM-5.3 and the spread of advanced cyber capabilities</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</guid>
+      <category>Research</category>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sep 29, 2026Societal ImpactsWhat do you want from AI?</title>
+      <link>https://www.anthropic.com/research/your-thoughts-on-ai</link>
+      <description>Sep 29, 2026Societal ImpactsWhat do you want from AI?</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/your-thoughts-on-ai</guid>
+      <category>Research</category>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Sep 25, 2026ScienceYes, Claude can do Nine Loops</title>
       <link>https://www.anthropic.com/research/yes-claude-can-do-nine-loops</link>
@@ -79,20 +95,12 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Aug 18, 2026ScienceHow Claude is accelerating protein design and analytical chemistry</title>
-      <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
-      <description>Aug 18, 2026ScienceHow Claude is accelerating protein design and analytical chemistry</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/Claude-accelerates-protein-design</guid>
+      <title>Societal Impacts</title>
+      <link>https://www.anthropic.com/research/team/societal-impacts</link>
+      <description>Societal Impacts</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
       <category>Research</category>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Aug 13, 2026Frontier Red TeamPatterns and problems in emerging multiagent systems</title>
-      <link>https://www.anthropic.com/research/multiagent-systems</link>
-      <description>Aug 13, 2026Frontier Red TeamPatterns and problems in emerging multiagent systems</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/multiagent-systems</guid>
-      <category>Research</category>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Frontier Red Team</title>
@@ -100,7 +108,7 @@
       <description>Frontier Red Team</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/frontier-red-team</guid>
       <category>Research</category>
-      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 26 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Economics</title>
@@ -108,7 +116,7 @@
       <description>Economics</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/economics</guid>
       <category>Research</category>
-      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Alignment</title>
@@ -116,15 +124,7 @@
       <description>Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/alignment</guid>
       <category>Research</category>
-      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Societal Impacts</title>
-      <link>https://www.anthropic.com/research/team/societal-impacts</link>
-      <description>Societal Impacts</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/team/societal-impacts</guid>
-      <category>Research</category>
-      <pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Interpretability</title>
@@ -132,7 +132,7 @@
       <description>Interpretability</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/team/interpretability</guid>
       <category>Research</category>
-      <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
