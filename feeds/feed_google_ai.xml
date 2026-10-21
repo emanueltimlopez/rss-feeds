@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 16:01:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 02:32:22 +0000</lastBuildDate>
     <item>
       <title>Unifying Edge AI: How Coral NPU’s open standard brings portable, energy-viable intelligence from model to silicon</title>
       <link>https://developers.googleblog.com/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon/</link>
@@ -28,6 +28,13 @@
       <link>https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/</link>
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Torch_Titan_Header_Image.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;TorchTPU integrates a native torch.device("tpu") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this with production-grade scaling primitives like SimpleFSDP, Graph Trainer, and custom Pallas kernels that achieve high Model Flops Utilization (MFU) across dense and MoE architectures. Developers can leverage these battle-tested optimization playbooks, recipes, and the Hugging Face modeling backend to efficiently scale their own workloads on TPU infrastructure.</description>
       <category>AI</category>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bringing Visual Graph Debugging to Custom Edge Compilers with Model Explorer</title>
+      <link>https://developers.googleblog.com/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</link>
+      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpqf.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Google AI Edge Model Explorer now supports custom compiler intermediate representations and open-source adapters like TOSA, VGF, and PTE for on-device machine learning. Developers can leverage hierarchical graph visualization, split-pane views, and per-node trace overlays to catch export regressions and verify hardware delegation. These tools enable engineering teams to transparently debug execution graphs and pinpoint cycle-level latency bottlenecks locally.</description>
+      <category>Mobile</category>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -71,13 +78,6 @@
       <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bib6g3bib6g.2e16d0ba.fill-800x400.jpg" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling the MCP data plane to run directly within your own Kubernetes cluster. This architecture ensures that AI agent request traffic and tool execution remain entirely inside your infrastructure while pulling configuration updates from the control plane. Developers can expose OpenAPI 3.0.x specifications as discoverable MCP tools, leverage existing security policies and API products, and trace end-to-end requests using W3C trace context headers.</description>
       <category>AI</category>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gemini 4 Argon for Robotics</title>
-      <link>https://developers.googleblog.com/gemini-4-argon-for-robotics/</link>
-      <description>&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-800x400.png" alt="Featured image" /&gt;&lt;br/&gt;&lt;br/&gt;Gemini 4 Argon is a general-purpose physical reasoning model designed to enhance workflows across the robotics stack with advanced capabilities in physical understanding, code generation, and visual-semantic reasoning. Developers can access and integrate Argon across Google's developer platforms—including Google AI Studio, the Gemini API, and Google Antigravity—to build and test sophisticated robotic applications. By leveraging simulation tools like MuJoCo and code-as-policies, engineers can seamlessly transition from real-world data or sketches to physically verified robot control and self-improvement workflows.</description>
-      <category>AI</category>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
