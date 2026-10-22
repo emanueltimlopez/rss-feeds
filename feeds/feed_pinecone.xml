@@ -8,7 +8,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 02:23:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 16:17:27 +0000</lastBuildDate>
+    <item>
+      <title>Integrated embedding on the Documents API</title>
+      <link>https://www.pinecone.io/blog/docs-api-integrated-embedding/</link>
+      <description>Integrated embedding on the Documents API</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/docs-api-integrated-embedding/</guid>
+      <category>Product</category>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When vectors became an implementation detail</title>
+      <link>https://www.pinecone.io/blog/when-vectors-became-an-implementation-detail/</link>
+      <description>When vectors became an implementation detail</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/when-vectors-became-an-implementation-detail/</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>On-demand mode for Pinecone BYOC</title>
       <link>https://www.pinecone.io/blog/byoc-on-demand/</link>
@@ -992,22 +1008,6 @@
       <guid isPermaLink="false">https://www.pinecone.io/blog/why-use-retrieval-instead-of-larger-context/</guid>
       <category>Engineering</category>
       <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Run Pinecone on Azure</title>
-      <link>https://www.pinecone.io/blog/azure/</link>
-      <description>Run Pinecone on Azure</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/azure/</guid>
-      <category>Product</category>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Start now, then take your time: Removing the Pinecone waitlist and inactivity policy</title>
-      <link>https://www.pinecone.io/blog/gcp-starter/</link>
-      <description>Start now, then take your time: Removing the Pinecone waitlist and inactivity policy</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/gcp-starter/</guid>
-      <category>Product</category>
-      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
