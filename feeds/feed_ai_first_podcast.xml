@@ -13,7 +13,14 @@
       <link>https://ai-first.ai/podcast</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 23 Oct 2026 02:33:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 16:07:29 +0000</lastBuildDate>
+    <item>
+      <title>Ein Unternehmen so umbauen, dass KI darin möglichst gut arbeiten kann</title>
+      <link>https://ai-first.ai/podcast/ein-unternehmen-so-umbauen-dass-ki-darin-moeglichst-gut-arbeiten-kann</link>
+      <description>Ein Unternehmen so umbauen, dass KI darin möglichst gut arbeiten kann – mit Daniel Schulze Lammers</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/ein-unternehmen-so-umbauen-dass-ki-darin-moeglichst-gut-arbeiten-kann</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Wie IBM mit KI 4,5 Milliarden Dollar einsparte</title>
       <link>https://ai-first.ai/podcast/wie-ibm-mit-ki-4-5-milliarden-dollar-einsparte</link>
@@ -90,13 +97,6 @@
       <description>CEO von EGYM: „Wer glaubt, KI verändert seinen Job nicht, ist bei uns falsch.“ – mit Philipp Roesch-Schlanderer</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/ceo-von-egym-wer-glaubt-ki-veraendert-seinen-job-nicht-ist-bei-uns-falsch</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vom CDO zum Solo-Founder: Wie Carlos Riebeling mit KI ein D2C-Unternehmen allein skaliert</title>
-      <link>https://ai-first.ai/podcast/vom-cdo-zum-solo-founder-wie-carlos-riebeling-mit-ki-ein-d2c-unternehmen-allein-skaliert</link>
-      <description>Vom CDO zum Solo-Founder: Wie Carlos Riebeling mit KI ein D2C-Unternehmen allein skaliert – mit Carlos Anthony Riebeling</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/vom-cdo-zum-solo-founder-wie-carlos-riebeling-mit-ki-ein-d2c-unternehmen-allein-skaliert</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
