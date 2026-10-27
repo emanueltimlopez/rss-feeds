@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 02:51:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 17:02:41 +0000</lastBuildDate>
+    <item>
+      <title>Introducing pg_pinecone: Open-Source Search for Your Postgres Data</title>
+      <link>https://www.pinecone.io/blog/introducing-pg-pinecone/</link>
+      <description>Introducing pg_pinecone: Open-Source Search for Your Postgres Data</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/introducing-pg-pinecone/</guid>
+      <category>Featured</category>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How to Migrate from Chroma Cloud to Pinecone</title>
       <link>https://www.pinecone.io/blog/migrate-chroma-cloud-to-pinecone/</link>
@@ -992,14 +1000,6 @@
       <guid isPermaLink="false">https://www.pinecone.io/blog/pain-poetry-python/</guid>
       <category>Engineering</category>
       <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Look Back at Pinecone's First Hackathon</title>
-      <link>https://www.pinecone.io/blog/the-first-pinecone-hackathon/</link>
-      <description>A Look Back at Pinecone's First Hackathon</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/the-first-pinecone-hackathon/</guid>
-      <category>Company</category>
-      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Monitor Pinecone with Datadog</title>
