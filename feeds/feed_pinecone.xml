@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 04:49:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 19:19:57 +0000</lastBuildDate>
+    <item>
+      <title>Pinecone integrated embedding now supports Google's Gemini Embedding 2</title>
+      <link>https://www.pinecone.io/blog/integrated-embedding-google/</link>
+      <description>Pinecone integrated embedding now supports Google's Gemini Embedding 2</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/integrated-embedding-google/</guid>
+      <category>Product</category>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Pinecone integrated embedding now supports OpenAI's text-embedding-3 models</title>
       <link>https://www.pinecone.io/blog/integrated-embedding-openai/</link>
@@ -1000,14 +1008,6 @@
       <guid isPermaLink="false">https://www.pinecone.io/blog/hnsw-not-enough/</guid>
       <category>Engineering</category>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pinecone is now HIPAA compliant</title>
-      <link>https://www.pinecone.io/blog/hipaa/</link>
-      <description>Pinecone is now HIPAA compliant</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/hipaa/</guid>
-      <category>Product</category>
-      <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
