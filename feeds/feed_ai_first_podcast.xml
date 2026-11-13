@@ -13,7 +13,14 @@
       <link>https://ai-first.ai/podcast</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 13 Nov 2026 04:07:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 18:56:40 +0000</lastBuildDate>
+    <item>
+      <title>Von 0 auf 25 Mio. ARR mit Voice AI – mit Daniel Keinrath</title>
+      <link>https://ai-first.ai/podcast/von-0-auf-25-mio-arr-mit-voice-ai-mit-daniel-keinrath</link>
+      <description>Von 0 auf 25 Mio. ARR mit Voice AI – mit Daniel Keinrath – mit Daniel Keinrath</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/von-0-auf-25-mio-arr-mit-voice-ai-mit-daniel-keinrath</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Wie wir bei AI FIRST mit KI arbeiten: Blick hinter die Kulissen, die größten Fehler und unser bestes KI-Setup</title>
       <link>https://ai-first.ai/podcast/wie-wir-bei-ai-first-mit-ki-arbeiten-blick-hinter-die-kulissen-die-groessten-fehler-und-unser-bestes-ki-setup</link>
@@ -90,13 +97,6 @@
       <description>State of AI Agents: Wie Beam agentische Systeme in Produktion bringt – mit Jonas Diezun</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/state-of-ai-agents-wie-beam-agentische-systeme-in-produktion-bringt</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Das AI-First Prinzip — 3 Ebenen, die dein Unternehmen transformieren</title>
-      <link>https://ai-first.ai/podcast/das-ai-first-prinzip-3-ebenen-die-dein-unternehmen-transformieren</link>
-      <description>Das AI-First Prinzip — 3 Ebenen, die dein Unternehmen transformieren – mit Elisabeth L’Orange</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/das-ai-first-prinzip-3-ebenen-die-dein-unternehmen-transformieren</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
