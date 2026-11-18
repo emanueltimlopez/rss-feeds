@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 05:02:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 19:45:22 +0000</lastBuildDate>
+    <item>
+      <title>pg_pinecone now deploys on Railway in one click</title>
+      <link>https://www.pinecone.io/blog/pg-pinecone-railway/</link>
+      <description>pg_pinecone now deploys on Railway in one click</description>
+      <guid isPermaLink="false">https://www.pinecone.io/blog/pg-pinecone-railway/</guid>
+      <category>Product</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Vector-to-document index conversion is now available</title>
       <link>https://www.pinecone.io/blog/index-conversion/</link>
@@ -1000,14 +1008,6 @@
       <guid isPermaLink="false">https://www.pinecone.io/blog/canopy-rag-framework/</guid>
       <category>Product</category>
       <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pinecone is now available on the Azure Marketplace</title>
-      <link>https://www.pinecone.io/blog/azure-marketplace/</link>
-      <description>Pinecone is now available on the Azure Marketplace</description>
-      <guid isPermaLink="false">https://www.pinecone.io/blog/azure-marketplace/</guid>
-      <category>Product</category>
-      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
