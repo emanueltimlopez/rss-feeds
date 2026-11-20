@@ -13,7 +13,14 @@
       <link>https://ai-first.ai/podcast</link>
     </image>
     <language>de</language>
-    <lastBuildDate>Fri, 20 Nov 2026 04:53:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 19:25:54 +0000</lastBuildDate>
+    <item>
+      <title>KI skaliert über ein Betriebsmodell: Wie ebm-papst Agenten in die Breite bringt</title>
+      <link>https://ai-first.ai/podcast/ki-skaliert-ueber-ein-betriebsmodell-wie-ebm-papst-agenten-in-die-breite-bringt</link>
+      <description>KI skaliert über ein Betriebsmodell: Wie ebm-papst Agenten in die Breite bringt – mit Eric Martin</description>
+      <guid isPermaLink="false">https://ai-first.ai/podcast/ki-skaliert-ueber-ein-betriebsmodell-wie-ebm-papst-agenten-in-die-breite-bringt</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Von 0 auf 25 Mio. ARR mit Voice AI – mit Daniel Keinrath</title>
       <link>https://ai-first.ai/podcast/von-0-auf-25-mio-arr-mit-voice-ai-mit-daniel-keinrath</link>
@@ -90,13 +97,6 @@
       <description>AI FIRST Podcast: Wenn ich heute mit KI noch einmal neu anfangen würde</description>
       <guid isPermaLink="false">https://ai-first.ai/podcast/wenn-ich-heute-mit-ki-noch-einmal-neu-anfangen-wuerde</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>State of AI Agents: Wie Beam agentische Systeme in Produktion bringt</title>
-      <link>https://ai-first.ai/podcast/state-of-ai-agents-wie-beam-agentische-systeme-in-produktion-bringt</link>
-      <description>State of AI Agents: Wie Beam agentische Systeme in Produktion bringt – mit Jonas Diezun</description>
-      <guid isPermaLink="false">https://ai-first.ai/podcast/state-of-ai-agents-wie-beam-agentische-systeme-in-produktion-bringt</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
